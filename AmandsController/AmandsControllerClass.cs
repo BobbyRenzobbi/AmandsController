@@ -1719,6 +1719,7 @@ namespace AmandsController
             AmandsControllerButtonBinds.Add(EAmandsControllerButton.RT, new List<AmandsControllerButtonBind> { new AmandsControllerButtonBind(new List<AmandsControllerCommand> { new AmandsControllerCommand(ECommand.ToggleShooting), new AmandsControllerCommand(ECommand.EndSprinting), new AmandsControllerCommand(ECommand.TryHighThrow) }, EAmandsControllerPressType.Press, -1) });
             AmandsControllerButtonBinds[EAmandsControllerButton.RT].Add(new AmandsControllerButtonBind(new List<AmandsControllerCommand> { new AmandsControllerCommand(ECommand.EndShooting), new AmandsControllerCommand(ECommand.FinishHighThrow) }, EAmandsControllerPressType.Release, -1));
 
+            adsad
             AmandsControllerButtonBinds.Add(EAmandsControllerButton.A, new List<AmandsControllerButtonBind> { new AmandsControllerButtonBind(new AmandsControllerCommand(ECommand.Jump), EAmandsControllerPressType.Press, -1) });
             AmandsControllerButtonBinds.Add(EAmandsControllerButton.B, new List<AmandsControllerButtonBind> { new AmandsControllerButtonBind(new AmandsControllerCommand(ECommand.ToggleDuck), EAmandsControllerPressType.Press, -1) });
             AmandsControllerButtonBinds[EAmandsControllerButton.B].Add(new AmandsControllerButtonBind(new AmandsControllerCommand(ECommand.ToggleProne), EAmandsControllerPressType.Hold, -1));
